@@ -1,0 +1,48 @@
+# Arquivos de build
+bin/
+obj/
+artifacts/
+
+# Configurações específicas do usuário
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Diretório do Visual Studio
+.vs/
+
+# Resultados de testes
+TestResults/
+
+# Arquivos de log
+*.log
+
+# Configurações do Visual Studio Code
+.vscode/
+
+# Pacotes NuGet
+*.nupkg
+packages/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+
+# Arquivos de publicação
+*.publish.xml
+*.pubxml
+*.publishproj
+
+# Configurações do Rider
+.idea/
+
+# Arquivos de cache
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+
+# Outros
+*.pfx
+*.snk

@@ -1,20 +1,13 @@
-Um cliente tem necessidade de buscar livros em um catálogo. Esse cliente quer ler e buscar esse catálogo de um arquivo JSON, e esse arquivo não pode ser modificado. Então com essa informação, é preciso desenvolver:
 
-    Criar uma API para buscar produtos no arquivo JSON disponibilizado.
-    Que seja possível buscar livros por suas especificações(autor, nome do livro ou outro atributo)
-    É preciso que o resultado possa ser ordenado pelo preço.(asc e desc)
-    Disponibilizar um método que calcule o valor do frete em 20% o valor do livro.
+-O projeto foi criado utilizando arquitetura onion e utilizando .net 5.0
+As camadas de core guardam a lógica de negócio, e camada de infra faz a comunicação com a fontes de dados, na camada de API é feito o consumo das demais camadas.
 
-Será avaliado no desafio:
+-Para rodar a api basta ter .net 5.0 instalado, ou superior no sistema, e marcar a Books.API como projeto set as startup project, e rodar o projeto clicando IIS Express
+  , ou utilizar o atalho Ctrl + F5.
 
-    Organização de código;
-    Manutenibilidade;
-    Princípios de orientação à objetos;
-    Padrões de projeto;
-    Teste unitário
+-Para rodar os testes basta seleciona-los na solução e clicar com o botão direito e selecionar a opção de rodar os testes, ou utilizar o atalho Ctrl + R, A.
 
-Para nos enviar o código, crie um fork desse repositório e quando finalizar, mande um pull-request para nós.
 
-O projeto deve ser desenvolvido em C#, utilizando o .NET Core 3.1 ou superior.
 
-Gostaríamos que fosse evitado a utilização de frameworks, e que tivesse uma explicação do que é necessário para funcionar o projeto e os testes.
+
+
